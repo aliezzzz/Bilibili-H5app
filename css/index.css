@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.h5_page:not(.h5_page_face){
+	background-color: #fff;
+	background-image: url(../imgs/bg.png);
+}
+.h5_component_name_head{
+	border: 1px solid #eee;
+	box-shadow: 0 8px 20px #ddd;
+	border-radius:50%;
+	/*transition: all 1s;*/
+}
+.h5_component_name_info span{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: inherit;
+	margin-left: 6px;
+}
+.h5_component_name_caption{
+	background-color: #fb7299;
+	width: 100%;
+	height: 10%;
+	box-shadow: 0 10px 50px #ddd;
+	color: #fff;
+	font-size: 20px;
+}
+.h5_component_name_caption .title{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+.h5_component_name_box {
+	background-color: #fafafa;
+	top:12%;
+	left: 3.5%;
+	height: 86%;
+	width: 93%;
+	border-radius: 7px;
+	box-shadow: 0 0 20px #ddd;
+	transition: .2s;
+}
+.h5_component_name_pielist li{
+	list-style: none;
+	color: #999;
+	font-size: 15px;
+	line-height: 16px;
+	margin-top: 5px;
+}
+.h5_component_name_pielist li span{
+	margin-left: 5%;
+	font-size: 16px;
+	color: #6a6a6a;
+}
+.h5_component_name_pielist .top{
+	background: url(../imgs/bilibiliicon.ico) no-repeat left;
+	color: #fb7299;
+	background-size:18px;
+	margin-left: -22px;
+	padding-left: 22px;
+}
+.h5_component_name_pielist li .span_top{
+	color: #fb7299;
+}
+.h5_component_name_bar .name {
+	color: #6a6a6a;
+}
+.h5_component_name_bar .name_top{
+	background: url(../imgs/bilibiliicon.ico) no-repeat left;
+	background-size:18px;
+	margin-left: -22px;
+	padding-left: 22px;
+}
+.h5_component_name_bar_pic{
+	box-shadow: 5px 5px 20px #ccc; 
+}
+
+/*.h5_component_name_flash_dio {
+	transition: all .8s;
+}*/
+/*.h5_component_name_slogan{
+	-webkit-animation:rock 2s infinite 2s;
+}
+@-webkit-keyframes rock{
+	0%{ transform:rotate(0deg)}
+	5%{ transform:rotate(3deg)}
+	10%{ transform:rotate(-4deg)}
+	15%{ transform:rotate(3deg)}
+	20%{ transform:rotate(-2deg)}
+	25%{ transform:rotate(1deg)}
+	30%{ transform:rotate(-1deg)}
+	70%{ transform:rotate(0deg)}
+	100%{ transform:rotate(0deg)}
+}
+
+.h5_component_name_back{
+	top:30px;
+	-webkit-animation:back 1.5s infinite 2s;
+}
+/*@-webkit-keyframes back{
+	50%{ top: 20px; }
+}*/
